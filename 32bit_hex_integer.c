@@ -18,7 +18,7 @@ double str_Hex_value(char *c){
     double value=0,base=16,arr_indx=7; 
     /* it is very very important that we take the preceding 3 values as double 
         because in line 45 where the actual value is being calculated the var value 
-        tends to be very big for an int so we would have to canvert value into a double
+        tends to be very big for an int so we would have to convert value into a double
         then due to the arthematic in c is we add any int to double with such magnitude
         it tends to break the program due to some bit problems so it kind of tries to change
         the int into a double which manupilates the value of the given int, so its better
